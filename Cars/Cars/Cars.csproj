@@ -21,4 +21,10 @@
     <Folder Include="Utility" />
     <Folder Include="ViewModel" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\ReadMe.md">
+      <Link>ReadMe.md</Link>
+    </Content>
+  </ItemGroup>
 </Project>
