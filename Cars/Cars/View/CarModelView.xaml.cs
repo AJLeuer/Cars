@@ -2,7 +2,7 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace Cars.ViewModel
+namespace Cars.View
 {
 	public partial class CarModelView : StackPanel 
     {

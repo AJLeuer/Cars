@@ -6,7 +6,7 @@ namespace Cars.View
 {
 	public sealed partial class MainWindow : Window
 	{
-		public ObservableCollection<CarMake>? Cars { get; set; } =
+		public ObservableCollection<CarMake> Cars { get; set; } =
 			new ()
 			{
 				new CarMake { Name = "Chevrolet", CarModels = { new CarModel { Name = "Camaro" }, new CarModel { Name = "Blazer" }, new CarModel { Name = "Beretta" } } },

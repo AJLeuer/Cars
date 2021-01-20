@@ -1,5 +1,5 @@
 ﻿<StackPanel Orientation="Horizontal"
-    x:Class="Cars.ViewModel.CarModelView"
+    x:Class="Cars.View.CarModelView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
