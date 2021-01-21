@@ -3,7 +3,7 @@ using Cars.Model;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace Cars.Utility
+namespace Cars.View.Utility
 {
 	public class CarItemSelector : DataTemplateSelector
 	{

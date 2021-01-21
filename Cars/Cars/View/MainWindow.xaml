@@ -2,9 +2,9 @@
     x:Class="Cars.View.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:utility="using:Cars.Utility"
     xmlns:model="using:Cars.Model"
-    xmlns:view="using:Cars.View">
+    xmlns:view="using:Cars.View"
+    xmlns:utility="using:Cars.View.Utility">
     
     <Grid>
         <Grid.Resources>
