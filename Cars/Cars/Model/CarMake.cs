@@ -5,6 +5,6 @@ namespace Cars.Model
 	public class CarMake
 	{
 		public string? Name { get; set; }
-		public ObservableCollection<CarModel> CarModels { get; }= new();
+		public ObservableCollection<CarModel> CarModels { get; set; } = new();
 	}
 }

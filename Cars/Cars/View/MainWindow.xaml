@@ -10,14 +10,14 @@
         <Grid.Resources>
                         
             <DataTemplate x:Key="CarMakeTemplate" x:DataType="model:CarMake">
-                <TreeViewItem ItemsSource="{x:Bind CarModels}">
-                    <view:CarMakeView CarMake="{Binding}"/>
+                <TreeViewItem ItemsSource="{x:Bind Path=CarModels}">
+                    <view:CarMakeView CarMake="{x:Bind}"/>
                 </TreeViewItem>
             </DataTemplate>
             
             <DataTemplate x:Key="CarModelTemplate" x:DataType="model:CarModel">
                 <TreeViewItem>
-                    <view:CarModelView CarModel="{Binding}"/>
+                    <view:CarModelView CarModel="{x:Bind}"/>
                 </TreeViewItem>
             </DataTemplate>
             
